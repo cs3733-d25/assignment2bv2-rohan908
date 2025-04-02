@@ -11,7 +11,7 @@ Use this assignment to get up to speed with React.js using the Webstorm IDE, and
 Create a blank Vite React.js project in Webstorm with Typescript enabled:  
 Webstorm -> New Project -> Vite -> Template: react -> check Use TypeScript Template
 
-You will take the web page you created in Assignment 1b and will combine it with your partner's web page to create a combined web page. Create the following TSX components and render them in `app.tsx`. Use props to pass your names in the intro.tsx component.
+You will take the web page you created in Assignment 1b and will combine it with your partner's web page to create a combined web page. Create the following TSX components and render them in `app.tsx`. Use props to pass your names in the Intro.tsx component.
 1. __title.tsx__ component that contains a heading with the class, team number, and your two hobbies. For example, __CS3733-D25 Team 97: Pottery and Cello__
 2. __intro.tsx__ component that includes a paragraph that introduces both of you. For your names, use props to obtain the names that were passed in from `<App />`
 3. __hobby1.tsx__ component that introduces the hobby of the first person and includes an image of their hobby.
