@@ -1,5 +1,6 @@
 import List2 from "./List2.tsx";
 import Table2 from "./Table2.tsx"
+import Form2 from "./Form2.tsx"
 
 
 
@@ -24,6 +25,7 @@ function Hobby2() {
             </figure>
             <List2 />
             <Table2 />
+            <Form2 />
         </div>
     )
 }
