@@ -10,7 +10,13 @@ function Hobby1() {
             <div className="text-xl float-1 text-accent">
                 <h1>Hudson's Hobby: Biking</h1>
             </div>
-
+            {/*demo */}
+            <div className="text-xl float-1 text-accent">
+                <form>
+                    this is a generic form for demonstratoin
+                </form>
+            </div>
+            {/*demo*/}
             <figure>
                 <img
                     src="../../public/IMG_9063.jpg"
