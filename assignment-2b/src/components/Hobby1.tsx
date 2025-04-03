@@ -8,7 +8,8 @@ function Hobby1() {
     return (
         <div>
             <div className="text-xl float-1 text-accent">
-                <h1>Hudson's Hobby: Biking</h1>
+                <h1>Hudson's Hobby: Sking</h1>
+                <h3>Its really fun but East coast snow sucks</h3>
             </div>
 
             <figure>
