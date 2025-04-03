@@ -22,6 +22,7 @@ function Hobby1() {
             </div>
             <List1 />
             <Table1 />
+            <Form1 />
 
         </div>
 

@@ -71,7 +71,7 @@ function Form1() {
                             <option value="3">Certainly!</option>
                         </select><br/>
 
-                    <button className="btn btn-outline btn-info" value="Submit"> Submit!</button>
+                    <button type="submit" className="btn btn-outline btn-info" > Submit!</button>
 
 
                 </div>
