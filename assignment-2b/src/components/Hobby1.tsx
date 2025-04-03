@@ -11,7 +11,13 @@ function Hobby1() {
                 <h1>Hudson's Hobby: Sking</h1>
                 <h3>Its really fun but East coast snow sucks</h3>
             </div>
-
+            {/*demo */}
+            <div className="text-xl float-1 text-accent">
+                <form>
+                    this is a generic form for demonstratoin
+                </form>
+            </div>
+            {/*demo*/}
             <figure>
                 <img
                     src="../../public/IMG_9063.jpg"
