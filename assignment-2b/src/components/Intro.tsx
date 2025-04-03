@@ -1,12 +1,14 @@
 type nameProp = {
     fname: string,
-    lname: string
+    lname: string,
 }
 
 function Intro(props: nameProp) {
 
     return (
-        <div className="bg-base-300 border-info text-primary text-sm p-8">
+        <div className="bg-base-300 border-info text-primary text-md p-8">
+        {
+            props.fname === 'Hudson' ? (
             <p>
                 <p>
                     My name is {props.fname} {props.lname}, I am a junior Robotics Engineering student at WPI with significant hands-on and
@@ -26,6 +28,20 @@ function Intro(props: nameProp) {
                     even new cyclists with budget equipment to perform well.
                 </p>
             </p>
+            ) : (
+                <>
+                    <p>
+                        Hi! I'm {props.fname} {props.lname}, a robotics engineer and a winter sports enthusiast. 
+                        I'm currently a sophomore at Worcester Polytechnic Institute majoring in Computer Science and Robotics and minoring in Mathematics.
+                        I'm interested in building products for search and rescue, aerospace applications, and more!
+                </p>
+                <p>
+                    I've been snowboarding since I was 12 and skiing since I was 5 I enjoy snowboarding more. I ride a K2 Manifest board with NOW bindings.
+                    I can ride switch at an intermediate level and you'll often see me riding at Mt. Bachelor!
+                </p>
+            </>
+            )   
+        }
         </div>
     )
 }

@@ -7,6 +7,7 @@ function Hobby1() {
 
     return (
         <>
+        <div className="space-y-6">
             <div className="card bg-base-300 shadow-xl p-6 max-w-2xl mx-auto my-8 hover:bg-base-200">
                 <div className="card-body">
                     <div className="text-xl float-1 text-accent">
@@ -22,6 +23,8 @@ function Hobby1() {
             <List1 />
             <Table1 />
             <Form1 />
+
+        </div>
 
         </>
 
